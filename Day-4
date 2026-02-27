@@ -1,0 +1,107 @@
+class  IfelseStatement
+{
+	public static void main(String[] args) 
+	{
+		// even or odd
+		int i=5;
+		if(i%2==0)
+		{
+		System.out.println("even");
+		}
+		else
+		{
+	    System.out.println("odd");
+		}
+		System.out.println();
+		//eligible to vote or not
+		int age=19;
+		if(age>=18)
+		{
+			System.out.println("eligible to vote");
+		}
+		else
+		{
+			System.out.println("not eligible to vote");
+		}
+		System.out.println();
+		//positive or negative
+		int num=6;
+		if(i>=0)
+		{
+			System.out.println("positive");
+		}
+		else
+		{
+			System.out.println("nagative");
+		}
+		System.out.println();
+		//which is greater number
+		int a=3;
+		int b=6;
+		if(a>b)
+		{
+			System.out.println("a is greater");
+		}
+		else
+		{
+			System.out.println("b is greater");
+		}
+		System.out.println();
+		//divisible or not
+		int c=4;
+		if(num%2==0)
+		{
+			System.out.println("divisible");
+		}
+		else
+		{
+			System.out.println("not divisible");
+		}
+		System.out.println();
+		//century or not
+		int year=2026;
+		if(year%100==0)
+		{
+			System.out.println("century");
+		}
+		else
+		{
+			System.out.println("not century");
+		}
+		System.out.println();
+		//passed or not
+		int marks=89;
+		if(marks>=35)
+		{
+			System.out.println("passed");
+		}
+		else
+		{
+			System.out.println("not passed");
+		}
+		System.out.println();
+		//hot or cold
+		int temp=32;
+		if(temp>=30)
+		{
+			System.out.println("hot");
+		}
+		else
+		{
+			System.out.println("cold");
+		}
+		System.out.println();
+		//vowel or consonant
+		char ch='E';
+		if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+		   ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+		{ 
+			System.out.println("vowel");
+		}
+		else
+		{
+			System.out.println("consonant");
+		}
+		System.out.println();
+	}
+}
