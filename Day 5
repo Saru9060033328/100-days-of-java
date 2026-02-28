@@ -1,0 +1,17 @@
+class circle 
+{
+	void area(int r){
+		double pi=3.142;
+		double res=pi*r*r;
+		System.out.println(res);
+		
+	}
+	class sam
+		{
+	public static void main(String[] args) 
+	{
+		circle c1=new circle();
+		c1.area(3);
+	}
+}
+}
